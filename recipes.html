@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="fd.js"></script>
+    <title>FOODIES</title>
+</head>
+<body >
+  <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color:#fff; font-family: chiller; font-size: x-large;">FOODIES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding:0.25rem  0.5rem">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" style="margin-left: auto;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="margin-left: auto; color:#fff;"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#1" style="margin-left: auto; color:#fff;"><span>Recipes</span></a>
+          </li>
+         </ul> 
+      </div>
+    </div>
+  </nav>
+  <div class="card-group py-3" style="margin-left: auto; margin-right: auto;margin-top: 70px;">
+    <div class="card border-0" style="max-width: 740px;">
+        <div  style="margin-left: auto; margin-right: auto;">
+            <h3 style="margin-left:auto; display:flex; align-items: center; justify-content: center;">BREAKFAST</h3>
+            <div style="margin-left:auto;margin-right:auto; display:flex; align-items: center; justify-content: center;">
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=cd();>CARROT DOSA</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=mp();>MASALA POORI</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=pi();>PUDI IDLI</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=mpu();>GHEE PULAV</button></a>
+            </div>
+            <br><h3 style="margin-left:auto; display:flex; align-items: center; justify-content: center;">SWEETS</h3>
+            <div style="margin-left:auto; display:flex; align-items: center; justify-content: center;">
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px; margin-left: auto; margin-right: auto;" onclick=bh();>BREAD HALWA</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=ld();>LADDOO</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=eb();>DATE'S ENERGY BAR</button></a>
+            </div>
+            <br><h3 style="margin-left:auto; display:flex; align-items: center; justify-content: center;">HOT BEVERAGES</h3>
+            <div style="margin-left:auto; display:flex; align-items: center; justify-content: center;">
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=fc();>FILTER COFFEE</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=mt();>MASALA TEA</button></a>
+            </div>
+            <br><h3 style="margin-left:auto; display:flex; align-items: center; justify-content: center;">CHATS</h3>
+            <div style="margin-left:auto; display:flex; align-items: center; justify-content: center;">
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=mg();>MAGGI RAMEN</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=pp();>PANI PURI</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=cb();>CHILLI BAJJI</button></a>
+            </div>
+            <br><h3 style="margin-left:auto; display:flex; align-items: center; justify-content: center;">COLD BEVERAGES</h3>
+            <div style="margin-left:auto;margin-right:auto; display:flex; align-items: center; justify-content: center;">
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=lde();>LEMONADE</button></a>
+            <a href="#" ><button class="btn btn-outline-dark" style="margin-top: 20px;margin-left: auto; margin-right: auto;" onclick=mm();>MOGU MOGU</button></a>
+            </div>
+          </div>
+    </div>
+    <div class="card border-0" >
+        <div class="card  border-0" >
+            <div class="card-header">RECIPE : </div>
+            <video id="aa" width="165px" height="300px" controls autoplay muted loop style="margin-left: auto; margin-right: auto;">
+                <source  src="pics/intro.mp4" type="video/mp4"  /></video>
+          <div class="card-body">
+            <h5 class="card-title" id="2">WELCOME</h5>
+            <p class="card-text" id="3">CLICK ANY ONE TO REVEAL THE MAGIC BEHIND IT.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+    <a class="navbar-brand" href="#" style="font-size: 14px; color: #fff;margin-left: auto; margin-right: auto;">@2023 Copyright</a></nav>
+  </body>
+  </html>
